@@ -1,0 +1,29 @@
+{
+  "products": [
+    {
+      "name": "Nokia Win 8",
+      "category": "smartphone",
+      "brand": "Nokia"
+    },
+    {
+      "name": "Samsung Galaxy S8",
+      "category": "smartphone",
+      "brand": "Samsung"
+    },
+    {
+      "name": "Samsung Galaxy Y Note",
+      "category": "smartphone",
+      "brand": "Samsung"
+    },
+    {
+      "name": "iphone 13",
+      "category": "smartphone",
+      "brand": "Apple"
+    },
+     {
+      "name": "iphone 13 Pro",
+      "category": "smartphone",
+       "brand": "Apple"
+    }
+  ]
+}

@@ -1,0 +1,170 @@
+﻿
+      	<html xmlns:o='urn:schemas-microsoft-com:office:office' 
+            xmlns:w='urn:schemas-microsoft-com:office:word' 
+            xmlns='http://www.w3.org/TR/REC-html40'
+		>
+         <head>
+            <meta charset='utf-8'>
+            <title>Export HTML To Doc</title>
+            <style>
+               body { font-family: Calibri Light, sans-serif; }
+               hr { border: 1px solid black; margin: 20px 0; }
+            </style>
+         </head>
+         <body><p><strong>Prompt -</strong> As a content writer. Write a summary for the json provided below having all possible metrics like count, name, color etc. Inventory data contains available count for sku for every skuId and Sku data have the information for every skuid in inventory data. InventoryData is [{
+  "productId": "PR1",
+  "skuId": "SKU1",
+  "quantity": 6
+},
+{
+  "productId": "PR1",
+  "skuId": "SKU2",
+  "quantity": 4
+},
+{
+  "productId": "PR1",
+  "skuId": "SKU3",
+  "quantity": 11
+},
+{
+  "productId": "PR2",
+  "skuId": "SKU4",
+  "quantity": 15
+},
+{
+  "productId": "PR3",
+  "skuId": "SKU5",
+  "quantity": 15
+},
+{
+  "productId": "PR3",
+  "skuId": "SKU6",
+  "quantity": 7
+},
+{
+  "productId": "PR4",
+  "skuId": "SKU7",
+  "quantity": 2
+},
+{
+  "productId": "PR5",
+  "skuId": "SKU8",
+  "quantity": 1
+}]
+and sku data is: [{
+  "_id": "SKU1",
+  "skuName": "Nokia Win 8 64GB",
+  "productId": "PR1",
+  "color": "Black"
+},
+{
+  "_id": "SKU2",
+  "skuName": "Nokia Win 8 Pro 128GB",
+  "productId": "PR1",
+  "color": "Black"
+},
+{
+  "_id": "SKU3",
+  "skuName": "Nokia Win 8 Pro 128GB",
+  "productId": "PR1",
+  "color": "Blue"
+},
+{
+  "_id": "SKU4",
+  "skuName": "Samsung Galaxy S8",
+  "productId": "PR2",
+  "color": "Black"
+},
+{
+  "_id": "SKU5",
+  "skuName": "Samsung Galaxy Y Note 64GB",
+  "productId": "PR3",
+  "color": "Grey"
+},
+{
+  "_id": "SKU6",
+  "skuName": "Samsung Galaxy Y Note 128GB",
+  "productId": "PR3",
+  "color": "Blue"
+},
+{
+  "_id": "SKU7",
+  "skuName": "iphone 13 128GB",
+  "productId": "PR4",
+  "color": "Grey"
+},
+{
+  "_id": "SKU8",
+  "skuName": "iphone 13 Pro 256GB",
+  "productId": "PR5",
+  "color": "Grey"
+}]</p><p><strong>Response 1 -</strong> <p>The inventory and SKU data provide a detailed overview of available product variants, their quantities, and associated attributes such as name and color. Below is the summarized information:</p>
+<h3>Product PR1:</h3>
+<ul>
+<li>
+<p><strong>SKU1 (Nokia Win 8 64GB)</strong></p>
+<ul>
+<li><strong>Color</strong>: Black</li>
+<li><strong>Available Quantity</strong>: 6</li>
+</ul>
+</li>
+<li>
+<p><strong>SKU2 (Nokia Win 8 Pro 128GB)</strong></p>
+<ul>
+<li><strong>Color</strong>: Black</li>
+<li><strong>Available Quantity</strong>: 4</li>
+</ul>
+</li>
+<li>
+<p><strong>SKU3 (Nokia Win 8 Pro 128GB)</strong></p>
+<ul>
+<li><strong>Color</strong>: Blue</li>
+<li><strong>Available Quantity</strong>: 11</li>
+</ul>
+</li>
+</ul>
+<h3>Product PR2:</h3>
+<ul>
+<li><strong>SKU4 (Samsung Galaxy S8)</strong>
+<ul>
+<li><strong>Color</strong>: Black</li>
+<li><strong>Available Quantity</strong>: 15</li>
+</ul>
+</li>
+</ul>
+<h3>Product PR3:</h3>
+<ul>
+<li>
+<p><strong>SKU5 (Samsung Galaxy Y Note 64GB)</strong></p>
+<ul>
+<li><strong>Color</strong>: Grey</li>
+<li><strong>Available Quantity</strong>: 15</li>
+</ul>
+</li>
+<li>
+<p><strong>SKU6 (Samsung Galaxy Y Note 128GB)</strong></p>
+<ul>
+<li><strong>Color</strong>: Blue</li>
+<li><strong>Available Quantity</strong>: 7</li>
+</ul>
+</li>
+</ul>
+<h3>Product PR4:</h3>
+<ul>
+<li><strong>SKU7 (iPhone 13 128GB)</strong>
+<ul>
+<li><strong>Color</strong>: Grey</li>
+<li><strong>Available Quantity</strong>: 2</li>
+</ul>
+</li>
+</ul>
+<h3>Product PR5:</h3>
+<ul>
+<li><strong>SKU8 (iPhone 13 Pro 256GB)</strong>
+<ul>
+<li><strong>Color</strong>: Grey</li>
+<li><strong>Available Quantity</strong>: 1</li>
+</ul>
+</li>
+</ul>
+<p>In summary, the data comprises 8 SKUs across 5 different products, each with specific quantities and color options. The most stocked product variant is &quot;Samsung Galaxy S8&quot; with 15 units. The least available is &quot;iPhone 13 Pro 256GB&quot; with only 1 unit available. Each SKU provides a unique combination of specifications, ensuring a diverse inventory for different consumer preferences.</p></p><hr></body></html>

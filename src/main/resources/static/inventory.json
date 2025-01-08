@@ -1,0 +1,44 @@
+{
+  "inventory": [
+    {
+      "productId": "PR1",
+      "skuId": "SKU1",
+      "quantity": 5
+    },
+    {
+      "productId": "PR1",
+      "skuId": "SKU2",
+      "quantity": 4
+    },
+    {
+      "productId": "PR1",
+      "skuId": "SKU3",
+      "quantity": 11
+    },
+    {
+      "productId": "PR2",
+      "skuId": "SKU4",
+      "quantity": 15
+    },
+    {
+      "productId": "PR3",
+      "skuId": "SKU5",
+      "quantity": 15
+    },
+    {
+      "productId": "PR3",
+      "skuId": "SKU6",
+      "quantity": 7
+    },
+    {
+      "productId": "PR4",
+      "skuId": "SKU7",
+      "quantity": 2
+    },
+    {
+      "productId": "PR5",
+      "skuId": "SKU8",
+      "quantity": 1
+    }
+  ]
+}

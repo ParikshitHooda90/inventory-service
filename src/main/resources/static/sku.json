@@ -1,0 +1,45 @@
+{
+  "skus": [
+    {
+      "name": "Nokia Win 8 64GB",
+      "productId": "PR1",
+      "color": "Black"
+    },
+    {
+      "name": "Nokia Win 8 Pro 128GB",
+      "productId": "PR1",
+      "color": "Black"
+    },
+    {
+      "name": "Nokia Win 8 Pro 128GB",
+      "productId": "PR1",
+      "color": "Blue"
+    },
+    {
+      "name": "Samsung Galaxy S8",
+      "productId": "PR2",
+      "color": "Black"
+    },
+    {
+      "name": "Samsung Galaxy Y Note 64GB",
+      "productId": "PR3",
+      "color": "Grey"
+    },
+    {
+      "name": "Samsung Galaxy Y Note 128GB",
+      "productId": "PR3",
+      "color": "Blue"
+    },
+    {
+      "name": "iphone 13 128GB",
+      "productId": "PR4",
+      "color": "Grey"
+    },
+    {
+      "name": "iphone 13 Pro 256GB",
+      "productId": "PR5",
+      "color": "Grey"
+    }
+  ]
+}
+
