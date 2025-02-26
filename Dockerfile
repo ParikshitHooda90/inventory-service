@@ -1,14 +1,12 @@
 # Use an official JDK runtime as a parent image
-FROM amazoncorretto:17.0.13-alpine
+FROM openjdk:17
 
-# Set the working directory in the container
-WORKDIR /app
+ARG JAR_FILE=target/*.jar
 
-# Copy the JAR file into the container
-COPY target/my-ecp-ecom-0.0.1-SNAPSHOT.jar inventory-service.jar
-
-# Expose port 8081
-EXPOSE 8081
+COPY ${JAR_FILE} inventory-service.jar
 
 # Run the application
 ENTRYPOINT ["java", "-jar", "inventory-service.jar"]
+
+# Expose port 8081
+EXPOSE 8087

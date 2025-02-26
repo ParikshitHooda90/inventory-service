@@ -32,6 +32,12 @@ public class InventoryController {
     @Autowired
     SandBoxGptUtils sandBoxGptUtils;
 
+    @GetMapping("/hello")
+    public ResponseEntity<String> hello(){
+        return ResponseEntity.ok().body("hello from inventory-service");
+    }
+
+
     @GetMapping("/all")
     public ResponseEntity<?> getCompleteInventory(){
         return  ResponseEntity.ok().body(inventoryService.getCompleteInventory());
