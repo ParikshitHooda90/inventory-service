@@ -5,6 +5,7 @@ import org.ps.ecp.ecom.inventory.service.ProductsCRUDService;
 import org.ps.ecp.ecom.inventory.pojo.ServiceResponse;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
+import org.springframework.security.access.prepost.PreAuthorize;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -30,6 +31,7 @@ public class ProductController {
     }
 
     @PostMapping("/delete")
+    @PreAuthorize("hasRole('ADMIN')")
     public ResponseEntity<?> deleteProduct(@RequestBody Product product){
         ServiceResponse response = productsCRUDService.deleteProduct(product);
         return ResponseEntity.ok().body(response);
