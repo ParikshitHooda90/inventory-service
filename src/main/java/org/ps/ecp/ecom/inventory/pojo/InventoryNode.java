@@ -1,10 +1,10 @@
 package org.ps.ecp.ecom.inventory.pojo;
 
-import lombok.Builder;
-import lombok.Data;
+import lombok.*;
 
-@Data
-@Builder
+@Getter
+@Setter
+@NoArgsConstructor
 public class InventoryNode {
     private String productId;
     private String skuId;

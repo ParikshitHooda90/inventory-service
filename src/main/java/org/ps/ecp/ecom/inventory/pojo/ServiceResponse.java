@@ -1,6 +1,12 @@
 package org.ps.ecp.ecom.inventory.pojo;
 
-@lombok.Data
+import lombok.Getter;
+import lombok.NoArgsConstructor;
+import lombok.Setter;
+
+@Getter
+@Setter
+@NoArgsConstructor
 public class ServiceResponse {
     private int statusCode;
     private String status;
