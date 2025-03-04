@@ -30,8 +30,9 @@
 		<java.version>17</java.version>
 		<spring-cloud.version>2023.0.3</spring-cloud.version>
 		<lombok.version>1.18.20</lombok.version>
-		<maven.compiler.source>1.8</maven.compiler.source>
-		<maven.compiler.target>1.8</maven.compiler.target>
+<!--		<maven.compiler.source>1.8</maven.compiler.source>-->
+<!--		<maven.compiler.target>1.8</maven.compiler.target>-->
+		<maven.compiler.release>17</maven.compiler.release>
 	</properties>
 	<dependencies>
 		<dependency>
@@ -145,8 +146,9 @@
 				<artifactId>maven-compiler-plugin</artifactId>
 				<version>3.13.0</version>
 				<configuration>
-					<source>${maven.compiler.source}</source>
-					<target>${maven.compiler.target}</target>
+<!--					<source>${maven.compiler.source}</source>-->
+<!--					<target>${maven.compiler.target}</target>-->
+					<release>${maven.compiler.release}</release>
 					<encoding>UTF-8</encoding>
 					<annotationProcessorPaths>
 						<path>
