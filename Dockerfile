@@ -1,7 +1,7 @@
 # Use an official JDK runtime as a parent image
 FROM openjdk:17
 
-ARG JAR_FILE=target/*.jar
+ARG JAR_FILE=target/*-exec.jar
 
 COPY ${JAR_FILE} inventory-service.jar
 
