@@ -34,7 +34,7 @@ public class InventoryController {
 
     @GetMapping("/hello")
     public ResponseEntity<String> hello(){
-        return ResponseEntity.ok().body("hello from inventory-service");
+        return ResponseEntity.ok().body("hello from inventory-service again.");
     }
 
 
